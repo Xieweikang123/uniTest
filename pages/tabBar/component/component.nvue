@@ -131,6 +131,15 @@
                         open: false
                     },
                     // #endif
+					{
+						id: 'test',
+						name: '测试',
+						open: false,
+						pages: [{
+						    name: '测试',
+						    url: '/pages/test/test'
+						}]
+					}
                 ],
                 navigateFlag: false
             }
